@@ -1,0 +1,29 @@
+.inline-block{
+    background-color: aliceblue;
+}
+
+
+.container{
+    background-color: #EBEEF3;
+    width: 600px;
+}
+
+.btn{
+    /* color: black; */
+}
+.google a{
+    border: 2px solid blue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    height: 37px;
+}
+.google a:hover{
+    background-color: rgb(102, 102, 231);
+    color: white;
+    border: none;
+}
