@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit site</title>
+    <link rel="stylesheet" href="templateScratch.css">
+</head>
+
+<body>
+    <nav>
+        <img src="../images/logo.png" alt="">
+    </nav>
+    <div class="container">
+        <div class="wrapper">
+            <h2>Start Designing Your Website</h2>
+            <div class="content">
+
+            
+            <div class="template" onclick="template()">
+                <h4>Begin with a template</h4>
+                <p>Customize a Designer made template</p>
+                <img src="../images/arrow-right.png" alt="">
+            </div>
+            <div class="custom" onclick="custom()">
+                <h4>Build from scratch</h4>
+                <p>Create Website from scratch</p>
+                <img src="../images/arrow-right.png" alt="">
+            </div>
+        </div>
+        </div>
+        <img src="../images/choose-your-colors.gif" id="gif" alt="">
+    </div>
+    <script>
+        function template() {
+            console.log('template clicked');
+            location.href = 'template/template.html';
+        }
+        function custom() {
+            console.log('custom clicked');
+        }
+    </script>
+
+</body>
+
+</html>

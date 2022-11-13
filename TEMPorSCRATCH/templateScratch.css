@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+nav{
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+nav img{
+    height: 45px;
+    width: 45px;
+}
+.container{
+    background-color: #EBEEF3;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.wrapper{
+    background-color: white;
+    height: 317px;
+    width: 600px;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+h2{
+    margin-left: 55px;
+    margin-top: 23px;
+    text-decoration: underline;
+}
+.wrapper .content{
+    /* background-color: pink; */
+    margin-left: 55px;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.wrapper .template{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 14px;
+    cursor: pointer;
+    padding: 10px 0 0 12px;
+}
+.wrapper .template h4{
+    font-size: 22px;
+    color: #2b5a21;
+}
+
+.wrapper .custom h4{
+    font-size: 22px;
+    color: rgb(44, 99, 81);
+}
+.wrapper .template:hover{
+    border: 3px solid #FF812C;
+    border-radius: 10px;
+}
+.wrapper .custom{
+    height: 100px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 0 0 12px;
+}
+.wrapper .custom:hover{
+    border: 3px solid #FF812C;
+    border-radius: 10px;
+}
+
+
+#gif{
+    width: 700px;
+}
